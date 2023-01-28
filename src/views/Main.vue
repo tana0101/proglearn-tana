@@ -5,7 +5,7 @@ import studentVue from '@/components/student.vue';
 
 const props = defineProps(['data'])
 const data = props.data
-const getImage = (value: string) => {
+const getImage = (value: number) => {
   return "src/assets/img/board_" + value + ".jpg"
 }
 

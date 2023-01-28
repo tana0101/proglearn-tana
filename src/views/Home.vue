@@ -1,5 +1,6 @@
 <script setup lang="ts">
 // @ts-nocheck
+import headerVue from '@/components/header.vue';
 import { onMounted, ref } from 'vue'
 import { ElScrollbar } from 'element-plus'
 

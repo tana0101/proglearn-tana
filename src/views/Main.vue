@@ -6,7 +6,7 @@ import studentVue from '@/components/student.vue';
 const props = defineProps(['data'])
 const data = props.data
 const getImage = (value: number) => {
-  return "src/assets/img/board_" + value + ".jpg"
+  return require('@/assets/img/board_' + value + '.jpg')
 }
 
 const show = ref(false)

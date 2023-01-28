@@ -1,6 +1,5 @@
 <script setup lang="ts">
-
-import headerVue from '@/components/header.vue';
+// @ts-nocheck
 import { onMounted, ref } from 'vue'
 import { ElScrollbar } from 'element-plus'
 
@@ -15,11 +14,11 @@ onMounted(() => {
 const inputSlider = (value: number) => {
   scrollbarRef.value!.setScrollTop(value)
 }
-const scroll = ({ scrollTop }: number) => {
+const scroll = ({ scrollTop: number }) => {
   value.value = scrollTop
 }
 const formatTooltip = (value: number) => {
-  return `${value}`
+  return `${value} px`
 }
 
 </script>

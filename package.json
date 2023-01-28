@@ -4,6 +4,7 @@
   "private": true,
   "scripts": {
     "dev": "vite",
+    "serve": "vite preview",
     "build": "run-p type-check build-only",
     "preview": "vite preview",
     "build-only": "vite build",
@@ -15,6 +16,7 @@
     "codemirror-editor-vue3": "^2.1.7",
     "element-plus": "^2.2.27",
     "firebase": "^9.15.0",
+    "module-alias": "^2.2.2",
     "pinia": "^2.0.28",
     "sourcemap-codec": "^1.4.8",
     "typescript-vue-plugin": "^1.0.24",
